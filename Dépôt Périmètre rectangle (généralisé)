@@ -1,0 +1,11 @@
+package main
+import "fmt"
+
+func perimetreRectangle(longueur int, largeur int) int {
+    return 2*(longueur + largeur)
+}
+
+func main() {
+    resultat := perimetreRectangle(1584, 897)
+    fmt.Println(resultat)
+}

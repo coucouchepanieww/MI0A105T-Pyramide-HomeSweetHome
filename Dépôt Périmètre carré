@@ -1,0 +1,12 @@
+package main
+import "fmt"
+
+func perimetreCarre(cote int) int {
+    return 4 * cote
+}
+
+func main() {
+    fmt.Println(perimetreCarre(327))
+    fmt.Println(perimetreCarre(653))
+    fmt.Println(perimetreCarre(1629))
+}

@@ -1,0 +1,10 @@
+package main
+import "fmt"
+
+func prixReduit(prix float64, reduc float64) float64 {
+    return prix - prix*reduc/100
+}
+
+func main() {
+    fmt.Println(prixReduit(100, 40))
+}
